@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,7 +38,7 @@
 		2F043CE954B0A61AAB6E877E /* Pods-webapp_ios_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webapp_ios_app.debug.xcconfig"; path = "Target Support Files/Pods-webapp_ios_app/Pods-webapp_ios_app.debug.xcconfig"; sourceTree = "<group>"; };
 		34E3A8D5D00DF4290DFA7770 /* Pods-webapp_ios_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webapp_ios_app.release.xcconfig"; path = "Target Support Files/Pods-webapp_ios_app/Pods-webapp_ios_app.release.xcconfig"; sourceTree = "<group>"; };
 		4CA0F233BADC8354396047A8 /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
-		4EB8567EFC5B019DE6AD5728 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = yw_1222.jpg; sourceTree = "<group>"; };
+		4EB8567EFC5B019DE6AD5728 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		5231B65471D0AC5BCC396894 /* webapp_ios_app-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "webapp_ios_app-Prefix.pch"; path = "../../../webapp_ios_app/webapp_ios_app-Prefix.pch"; sourceTree = "<group>"; };
 		58D3386861CF802D125D9D99 /* webapp_ios_app-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "webapp_ios_app-mPaaS-Headers.h"; sourceTree = "<group>"; };
 		59B7D31E9406F236E4ABBCA3 /* Images_mPaaS.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images_mPaaS.xcassets; sourceTree = "<group>"; };
@@ -52,6 +52,7 @@
 		63ABF59C26DEA063007AB825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63ABF59F26DEA063007AB825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63ABF5A126DEA063007AB825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DFC63126DEA4AD0086E605 /* webapp_ios_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webapp_ios_app-Bridging-Header.h"; sourceTree = "<group>"; };
 		704DD73E4918987CE011F662 /* MPaaSInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
 		94C96E85969DAA75521A497C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		980C724BBEC7904CB33DA485 /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
@@ -62,7 +63,7 @@
 		C97B7F895E7AD5F4BA1C0C32 /* DTFrameworkInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
 		D3863DA301EB14E5C9D430A0 /* Pods_webapp_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webapp_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24E681A9931C38E530DD4AD /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
-		FDEA14FEC80D8029C2C83E8B /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; path = meta.config; sourceTree = "<group>"; };
+		FDEA14FEC80D8029C2C83E8B /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +98,6 @@
 				B0550DB4895761C8C57E1F72 /* MPaaSInterface+webapp_ios_app.h */,
 				704DD73E4918987CE011F662 /* MPaaSInterface+webapp_ios_app.m */,
 			);
-			name = mPaas;
 			path = mPaas;
 			sourceTree = "<group>";
 		};
@@ -111,7 +111,6 @@
 				429FD9F823002F15670CF345 /* mPaas */,
 				B26DAE897ACEB5C28DF65D99 /* APMobileFramework */,
 			);
-			name = webapp_ios_app;
 			path = webapp_ios_app;
 			sourceTree = "<group>";
 		};
@@ -144,6 +143,7 @@
 				63ABF59C26DEA063007AB825 /* Assets.xcassets */,
 				63ABF59E26DEA063007AB825 /* LaunchScreen.storyboard */,
 				63ABF5A126DEA063007AB825 /* Info.plist */,
+				63DFC63126DEA4AD0086E605 /* webapp_ios_app-Bridging-Header.h */,
 			);
 			path = webapp_ios_app;
 			sourceTree = "<group>";
@@ -165,7 +165,6 @@
 			children = (
 				B760C11CE5FFE5AF9901769B /* Targets */,
 			);
-			name = MPaaS;
 			path = MPaaS;
 			sourceTree = "<group>";
 		};
@@ -183,7 +182,6 @@
 				980C724BBEC7904CB33DA485 /* DemoViewController.h */,
 				B071D7DB4A8A945EB177A7A7 /* DemoViewController.m */,
 			);
-			name = APMobileFramework;
 			path = APMobileFramework;
 			sourceTree = "<group>";
 		};
@@ -192,7 +190,6 @@
 			children = (
 				5D31047B7EF5C4A9B0A3FB01 /* webapp_ios_app */,
 			);
-			name = Targets;
 			path = Targets;
 			sourceTree = "<group>";
 		};
@@ -202,7 +199,6 @@
 				2F043CE954B0A61AAB6E877E /* Pods-webapp_ios_app.debug.xcconfig */,
 				34E3A8D5D00DF4290DFA7770 /* Pods-webapp_ios_app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -489,6 +485,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "webapp-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "webapp_ios_app/webapp_ios_app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -510,6 +507,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "webapp-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "webapp_ios_app/webapp_ios_app-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
