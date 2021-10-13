@@ -2,7 +2,7 @@
 plugin "cocoapods-mPaaS"
 source "https://code.aliyun.com/mpaas-public/podspecs.git"
 mPaaS_baseline '10.1.68'
-mPaaS_version_code 37   # This line is maintained by MPaaS plugin automatically. Please don't modify.
+mPaaS_version_code 38   # This line is maintained by MPaaS plugin automatically. Please don't modify.
 # mPaaS Pods End
 # ---------------------------------------------------------------------
 # Uncomment the next line to define a global platform for your project

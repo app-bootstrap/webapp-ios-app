@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		05B763549FBBC25B7CFA7122 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = C06A5B6682D451E12E07C99E /* MobileRuntime.plist */; };
 		0D1AB97C568CD099620E9483 /* Images_mPaaS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B7D31E9406F236E4ABBCA3 /* Images_mPaaS.xcassets */; };
-		26180304F56E7E5DCE500E97 /* Pods_webapp_ios_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3863DA301EB14E5C9D430A0 /* Pods_webapp_ios_app.framework */; };
+		17D373C15F28EC76E3DC2880 /* MPaaSInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD89D327B38461612DFD773 /* MPaaSInterface+webapp_ios_app.m */; };
+		21AD9359610613F6B9EEF130 /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB81EB9DCB9240B768DDAD /* MPLauncherAppDelegate.m */; };
 		2913C838DE66105AFA69DDE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0305332122BE34685729C506 /* SystemConfiguration.framework */; };
 		3413F5486662A3C81937352A /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B071D7DB4A8A945EB177A7A7 /* DemoViewController.m */; };
 		3655212161466732FE899C56 /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B7DDF1026B65384AB9B89 /* MPLauncherAppDelegate.m */; };
+		3F8AB24BA7425B64F33C2C44 /* DTFrameworkInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B16DBD9F0A19433AB575E1 /* DTFrameworkInterface+webapp_ios_app.m */; };
+		41B22E7A756F4DAA7A3E5EED /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F7F22977408BCD18C16946 /* DemoViewController.m */; };
 		470CC60E47E24A135D853B69 /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F34DCF2F222E7BAF46F1AF /* MPTabBarController.m */; };
+		4AF37CAE99F5F8FD1329CBF2 /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CC6FE156730810CDD6BEF /* MPLauncherAppDelegate.m */; };
 		4BCE2B172485660AC85CEC44 /* DTFrameworkInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = C97B7F895E7AD5F4BA1C0C32 /* DTFrameworkInterface+webapp_ios_app.m */; };
 		54A49507365EF8B239FC13A5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0AB3E1259A82203A7B248 /* MessageUI.framework */; };
+		56A26E2699A8471B848DFF05 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF95D35A85A59DCA79D69767 /* MobileRuntime.plist */; };
 		5F8CCD5641A5D1777F114EC8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12242D2DCA908D76FED040D2 /* CoreMotion.framework */; };
 		600F430B58E70556BC804651 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EB8567EFC5B019DE6AD5728 /* yw_1222.jpg */; };
 		61EC37B7EF30FAAA3EDA923B /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24E681A9931C38E530DD4AD /* MPLauncherAppDelegate.m */; };
@@ -29,26 +34,43 @@
 		7E83FF20AFA083CB1E9AED3D /* Images_mPaaS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EB8B46538A52B4E5C37DFB /* Images_mPaaS.xcassets */; };
 		885C5746862ADE01DEB86784 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5342067683FAEE14C47EDE /* DemoViewController.m */; };
 		9224A1F85D6718401804F3CC /* MPaaSInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC79C7CEEFD352AA4C01FEE /* MPaaSInterface+webapp_ios_app.m */; };
-		AF5D662D567FAD50C0416832 /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 38E50381873EE27F722AE795 /* meta.config */; };
+		9325D3E4FFE3987F24CF8CD1 /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C75A66D932C9D14A033207 /* MPTabBarController.m */; };
+		9A741CC9816BBEEE9F123792 /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161968431A68859BF426D4B7 /* MPTabBarController.m */; };
 		B6433EDB2F2710D36EF5A353 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F07BEAF4BA82D42E820B69C /* WebKit.framework */; };
+		B7CDB1C29A62C14FFEDEEAA5 /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = D09FEB5AE32707CF35216A99 /* meta.config */; };
 		B9BF4EAF5E8A48ECAEAD6F88 /* DTFrameworkInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 55254494179D285048565505 /* DTFrameworkInterface+webapp_ios_app.m */; };
 		C90BA980899986054DED4FF3 /* MPaaSInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 704DD73E4918987CE011F662 /* MPaaSInterface+webapp_ios_app.m */; };
+		D2A5E2C476A78ABB6B1B541F /* DTFrameworkInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87567F9EC9A6DFD400D478 /* DTFrameworkInterface+webapp_ios_app.m */; };
+		D3E92C930F337C6A7BF8829C /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21EC677A58708C0A4A767E8 /* DemoViewController.m */; };
+		D5F26E89C0CF3D8AC1DA1993 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D41984E9E7200A33F446BDB /* MobileRuntime.plist */; };
 		D615863A27C406CB95278E48 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C96E85969DAA75521A497C /* CoreTelephony.framework */; };
+		DC109329049E40F65F3E469D /* Images_mPaaS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15304B2D21BBD6AB842CCB2 /* Images_mPaaS.xcassets */; };
+		ED372F8245B05B9C1E9DD391 /* MPaaSInterface+webapp_ios_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D506B8B911219BA331B47B9 /* MPaaSInterface+webapp_ios_app.m */; };
 		F680C2E06627E6B689219DCF /* MPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A37238BBFD6612F9ADF39 /* MPTabBarController.m */; };
+		F90AA200984750B4DD70B4DB /* Images_mPaaS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819E9AB32ED0C46FC0EB8B31 /* Images_mPaaS.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0305332122BE34685729C506 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		07044BED69E83F3A92D8838F /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
 		07A56E4F536934CF1DBF5049 /* DTFrameworkInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
 		12242D2DCA908D76FED040D2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		161968431A68859BF426D4B7 /* MPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
 		1B7A37238BBFD6612F9ADF39 /* MPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
 		2F043CE954B0A61AAB6E877E /* Pods-webapp_ios_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webapp_ios_app.debug.xcconfig"; path = "Target Support Files/Pods-webapp_ios_app/Pods-webapp_ios_app.debug.xcconfig"; sourceTree = "<group>"; };
 		34E3A8D5D00DF4290DFA7770 /* Pods-webapp_ios_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webapp_ios_app.release.xcconfig"; path = "Target Support Files/Pods-webapp_ios_app/Pods-webapp_ios_app.release.xcconfig"; sourceTree = "<group>"; };
-		38E50381873EE27F722AE795 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		36BF87BDB3CFAD5D7D1ACDF1 /* MPaaSInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
+		3C86628300670921F554C16B /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		3D2CC6FE156730810CDD6BEF /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
+		3D41984E9E7200A33F446BDB /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		3DD3107C8F8B712EEEAE14CD /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
+		43F7F22977408BCD18C16946 /* DemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		498533E3745964685CA2E6AC /* MPaaSInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
 		4CA0F233BADC8354396047A8 /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
 		4EB8567EFC5B019DE6AD5728 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		4F5342067683FAEE14C47EDE /* DemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		51F34DCF2F222E7BAF46F1AF /* MPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
+		520416080BC0A92B2D16C0C7 /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		5231B65471D0AC5BCC396894 /* webapp_ios_app-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "webapp_ios_app-Prefix.pch"; path = "../../../webapp_ios_app/webapp_ios_app-Prefix.pch"; sourceTree = "<group>"; };
 		55254494179D285048565505 /* DTFrameworkInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
 		58D3386861CF802D125D9D99 /* webapp_ios_app-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "webapp_ios_app-mPaaS-Headers.h"; sourceTree = "<group>"; };
@@ -65,18 +87,34 @@
 		63ABF59F26DEA063007AB825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63ABF5A126DEA063007AB825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DFC63126DEA4AD0086E605 /* webapp_ios_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webapp_ios_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		66CB81EB9DCB9240B768DDAD /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
+		6D506B8B911219BA331B47B9 /* MPaaSInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
 		704DD73E4918987CE011F662 /* MPaaSInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
+		76C75A66D932C9D14A033207 /* MPTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarController.m; sourceTree = "<group>"; };
+		77425B439B47304F0892129B /* MPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPTabBarController.h; sourceTree = "<group>"; };
+		7A87567F9EC9A6DFD400D478 /* DTFrameworkInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
 		7C7B7DDF1026B65384AB9B89 /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
 		7F577F4D279CBD76EE2593EF /* webapp_ios_app-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "webapp_ios_app-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		819E9AB32ED0C46FC0EB8B31 /* Images_mPaaS.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images_mPaaS.xcassets; sourceTree = "<group>"; };
 		94C96E85969DAA75521A497C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		980C724BBEC7904CB33DA485 /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A3C8579DE9FA07A7FA45EA6C /* DTFrameworkInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
 		A4E3E9363D0F10CD66368CD8 /* MPaaSInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
 		A59D1398E8D8F5D92A911F9E /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
 		A5F0AB3E1259A82203A7B248 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		A6449B6BEF826261838166FD /* DTFrameworkInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
 		B0550DB4895761C8C57E1F72 /* MPaaSInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
 		B071D7DB4A8A945EB177A7A7 /* DemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		B15304B2D21BBD6AB842CCB2 /* Images_mPaaS.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images_mPaaS.xcassets; sourceTree = "<group>"; };
+		B6B16DBD9F0A19433AB575E1 /* DTFrameworkInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
+		BF3DE8B05FA8F94051CE9EBF /* MPTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPTabBarController.h; sourceTree = "<group>"; };
 		C06A5B6682D451E12E07C99E /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		C21EC677A58708C0A4A767E8 /* DemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		C97B7F895E7AD5F4BA1C0C32 /* DTFrameworkInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
+		CCB3621C8059EE992D6A7759 /* webapp_ios_app-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "webapp_ios_app-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		CDD89D327B38461612DFD773 /* MPaaSInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
+		CF95D35A85A59DCA79D69767 /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		D09FEB5AE32707CF35216A99 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
 		D1063F8DDFE1916C65D0955C /* DemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		D3863DA301EB14E5C9D430A0 /* Pods_webapp_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webapp_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC54FFC3132F579D658CB531 /* DTFrameworkInterface+webapp_ios_app.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+webapp_ios_app.h"; sourceTree = "<group>"; };
@@ -84,6 +122,7 @@
 		EDC79C7CEEFD352AA4C01FEE /* MPaaSInterface+webapp_ios_app.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+webapp_ios_app.m"; sourceTree = "<group>"; };
 		F24E681A9931C38E530DD4AD /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
 		F6A681A658E3F6B36750C499 /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
+		FB604D0909FF4FC91CBF2F2B /* webapp_ios_app-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "webapp_ios_app-mPaaS-Headers.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +130,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26180304F56E7E5DCE500E97 /* Pods_webapp_ios_app.framework in Frameworks */,
 				B6433EDB2F2710D36EF5A353 /* WebKit.framework in Frameworks */,
 				5F8CCD5641A5D1777F114EC8 /* CoreMotion.framework in Frameworks */,
 				D615863A27C406CB95278E48 /* CoreTelephony.framework in Frameworks */,
@@ -119,6 +157,10 @@
 				704DD73E4918987CE011F662 /* MPaaSInterface+webapp_ios_app.m */,
 				A4E3E9363D0F10CD66368CD8 /* MPaaSInterface+webapp_ios_app.h */,
 				EDC79C7CEEFD352AA4C01FEE /* MPaaSInterface+webapp_ios_app.m */,
+				36BF87BDB3CFAD5D7D1ACDF1 /* MPaaSInterface+webapp_ios_app.h */,
+				6D506B8B911219BA331B47B9 /* MPaaSInterface+webapp_ios_app.m */,
+				498533E3745964685CA2E6AC /* MPaaSInterface+webapp_ios_app.h */,
+				CDD89D327B38461612DFD773 /* MPaaSInterface+webapp_ios_app.m */,
 			);
 			path = mPaas;
 			sourceTree = "<group>";
@@ -131,8 +173,10 @@
 				5231B65471D0AC5BCC396894 /* webapp_ios_app-Prefix.pch */,
 				429FD9F823002F15670CF345 /* mPaas */,
 				B26DAE897ACEB5C28DF65D99 /* APMobileFramework */,
-				38E50381873EE27F722AE795 /* meta.config */,
 				7F577F4D279CBD76EE2593EF /* webapp_ios_app-mPaaS-Headers.h */,
+				CCB3621C8059EE992D6A7759 /* webapp_ios_app-mPaaS-Headers.h */,
+				D09FEB5AE32707CF35216A99 /* meta.config */,
+				FB604D0909FF4FC91CBF2F2B /* webapp_ios_app-mPaaS-Headers.h */,
 			);
 			path = webapp_ios_app;
 			sourceTree = "<group>";
@@ -214,6 +258,26 @@
 				51F34DCF2F222E7BAF46F1AF /* MPTabBarController.m */,
 				D1063F8DDFE1916C65D0955C /* DemoViewController.h */,
 				4F5342067683FAEE14C47EDE /* DemoViewController.m */,
+				A6449B6BEF826261838166FD /* DTFrameworkInterface+webapp_ios_app.h */,
+				B6B16DBD9F0A19433AB575E1 /* DTFrameworkInterface+webapp_ios_app.m */,
+				3D41984E9E7200A33F446BDB /* MobileRuntime.plist */,
+				B15304B2D21BBD6AB842CCB2 /* Images_mPaaS.xcassets */,
+				07044BED69E83F3A92D8838F /* MPLauncherAppDelegate.h */,
+				66CB81EB9DCB9240B768DDAD /* MPLauncherAppDelegate.m */,
+				BF3DE8B05FA8F94051CE9EBF /* MPTabBarController.h */,
+				76C75A66D932C9D14A033207 /* MPTabBarController.m */,
+				520416080BC0A92B2D16C0C7 /* DemoViewController.h */,
+				C21EC677A58708C0A4A767E8 /* DemoViewController.m */,
+				A3C8579DE9FA07A7FA45EA6C /* DTFrameworkInterface+webapp_ios_app.h */,
+				7A87567F9EC9A6DFD400D478 /* DTFrameworkInterface+webapp_ios_app.m */,
+				CF95D35A85A59DCA79D69767 /* MobileRuntime.plist */,
+				819E9AB32ED0C46FC0EB8B31 /* Images_mPaaS.xcassets */,
+				3DD3107C8F8B712EEEAE14CD /* MPLauncherAppDelegate.h */,
+				3D2CC6FE156730810CDD6BEF /* MPLauncherAppDelegate.m */,
+				77425B439B47304F0892129B /* MPTabBarController.h */,
+				161968431A68859BF426D4B7 /* MPTabBarController.m */,
+				3C86628300670921F554C16B /* DemoViewController.h */,
+				43F7F22977408BCD18C16946 /* DemoViewController.m */,
 			);
 			path = APMobileFramework;
 			sourceTree = "<group>";
@@ -300,9 +364,13 @@
 				600F430B58E70556BC804651 /* yw_1222.jpg in Resources */,
 				05B763549FBBC25B7CFA7122 /* MobileRuntime.plist in Resources */,
 				0D1AB97C568CD099620E9483 /* Images_mPaaS.xcassets in Resources */,
-				AF5D662D567FAD50C0416832 /* meta.config in Resources */,
 				7B308A9A2F0959D92DC85CF9 /* MobileRuntime.plist in Resources */,
 				7E83FF20AFA083CB1E9AED3D /* Images_mPaaS.xcassets in Resources */,
+				D5F26E89C0CF3D8AC1DA1993 /* MobileRuntime.plist in Resources */,
+				DC109329049E40F65F3E469D /* Images_mPaaS.xcassets in Resources */,
+				B7CDB1C29A62C14FFEDEEAA5 /* meta.config in Resources */,
+				56A26E2699A8471B848DFF05 /* MobileRuntime.plist in Resources */,
+				F90AA200984750B4DD70B4DB /* Images_mPaaS.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +436,16 @@
 				3655212161466732FE899C56 /* MPLauncherAppDelegate.m in Sources */,
 				470CC60E47E24A135D853B69 /* MPTabBarController.m in Sources */,
 				885C5746862ADE01DEB86784 /* DemoViewController.m in Sources */,
+				ED372F8245B05B9C1E9DD391 /* MPaaSInterface+webapp_ios_app.m in Sources */,
+				3F8AB24BA7425B64F33C2C44 /* DTFrameworkInterface+webapp_ios_app.m in Sources */,
+				21AD9359610613F6B9EEF130 /* MPLauncherAppDelegate.m in Sources */,
+				9325D3E4FFE3987F24CF8CD1 /* MPTabBarController.m in Sources */,
+				D3E92C930F337C6A7BF8829C /* DemoViewController.m in Sources */,
+				17D373C15F28EC76E3DC2880 /* MPaaSInterface+webapp_ios_app.m in Sources */,
+				D2A5E2C476A78ABB6B1B541F /* DTFrameworkInterface+webapp_ios_app.m in Sources */,
+				4AF37CAE99F5F8FD1329CBF2 /* MPLauncherAppDelegate.m in Sources */,
+				9A741CC9816BBEEE9F123792 /* MPTabBarController.m in Sources */,
+				41B22E7A756F4DAA7A3E5EED /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +595,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8A9Y93768;
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "webapp_ios_app/webapp_ios_app-Prefix.pch";
 				INFOPLIST_FILE = webapp_ios_app/Info.plist;
@@ -539,6 +619,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8A9Y93768;
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "webapp_ios_app/webapp_ios_app-Prefix.pch";
 				INFOPLIST_FILE = webapp_ios_app/Info.plist;
